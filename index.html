@@ -6,49 +6,72 @@
 	<link rel="stylesheet" href="css/index.css">
 	<link rel="stylesheet" href="css/base.css">
 	<link rel="shot icon" href="img/yidong.ico">
+	<script src="js/index.js"></script>
+	<script src="js/animate.js"></script>
 </head>
 <body>
 	<!-- 顶部开始 -->
 	<header>
 		<div class="neikuan">
-			<div class="header-left">
-				<a href="" class="hl-left">
-					ENGLISH
-				</a>
-				<a href="" class="hl-left">
-					政企客户
-				</a>
-			</div>
-			<div class="header-right">
+		<div class="header-left">
+			<a href="" class="hl-left">
+				ENGLISH
+			</a>
+			<a href="" class="hl-left">
+				政企客户
+			</a>
+		</div>
+		<div class="header-right">
+			<div class="rightbox">
 				<a href="" class="hr-right">
 					<i class="iconfont">
 						&#xe606;
 					</i>
 					登录
 				</a>
+			</div>
+			<div class="rightbox">
 				<a href="" class="hr-right hr-right-1">
-					<i class="iconfont">
-						&#xe618;
-					</i>
-					中国移动客户端
+						<span>
+						<i class="iconfont">
+							&#xe618;
+						</i>
+						中国移动客户端
+						</span>
 					<img src="img/1.gif" alt="">
+					<div class="ewmbox">
+						<div class="ewm">
+							<img src="img/ewm.jpg" alt="">
+							<p>扫一扫，随时查话费！</p>
+						</div>
+					</div>
+					
 				</a>
+			</div>
+			<div class="rightbox">
 				<a href="" class="hr-right">
 					积分商城
 				</a>
+			</div>
+			<div class="rightbox">
 				<a href="" class="hr-right">
 					关于中国移动
 				</a>
+			</div>
+			<div class="rightbox">
 				<a href="" class="hr-right">
 					联系我们
 				</a>
 			</div>
 		</div>
+	</div>
+
+
 	</header>
 	<!-- 顶部结束 -->
 	<!-- 导航开始 -->
 	<div id="daohang">
-		<div class="neikuan">
+		<!-- <div class="neikuan"> -->
 			<div class="daohang-left">
 				<img src="img/3.png" alt="">
 				<a href="">
@@ -77,30 +100,137 @@
 					<a href="" class="b1">电子发票</a>
 				</div>
 			</div>
-		</div>
+		<!-- </div> -->
 	</div>
 	<!-- 导航结束 -->
 	<!-- 顶部列表开始 -->
-		<div id="dingbu">
-			<div class="neikuan liebiao">
-				<a href="" class="liebiao1 liebiao1-1">首页</a>
-				<a href="" class="liebiao1-1 liebiao2">
-				移动商城
-			<!-- 	<div class="neikuan liebiao2-1 liebiao2-2">
-					<a href="">买手机</a>
-					<a href="">办套餐</a>
-					<a href="">办业务</a>
-					<a href="">挑配件</a>
-					<a href="">立即充值</a>
-					<a href="">个人业务</a>
-					<a href="">合约机</a>
-				</div> -->
-				</a>
-				<a href="" class="liebiao1-1 liebiao3">我的移动</a>
-				<a href="" class="liebiao1-1 liebiao4">网上营业厅</a>
-				<a href="" class="liebiao1-1 liebiao5">服务与支持</a>
+		<!-- <div id="dingbu">
+			<ul class="neikuan liebiao">
+				<li class="liebiao1 liebiao1-1"><a href="">首页</a></li>
+				<li class="liebiao1-1"><a href="">
+				移动商城</a>
+
+				<ul class="menu">
+					
+				</ul>
+				</li>
+				<li class="liebiao1-1"><a href="">我的移动</a></li>
+				<li class="liebiao1-1"><a href="">网上营业厅</a></li>
+				<li class="liebiao1-1"><a href="">服务与支持</a></li>
 				
-			</div>
+			</ul>
+		</div> -->
+		<div class="menu">
+			<li class="menuli">
+				<a href="" class="menu-a">首页</a>
+				<ul class="xuan"></ul>
+			</li>
+			<li class="menuli">
+				<a href="" class="menu-a">移动商城</a>
+				<ul class="xuan">
+					<li>
+						<a href="">买手机</a>
+					</li>
+					<li>
+						<a href="">办套餐</a>
+					</li>
+					<li>
+						<a href="">办业务</a>
+					</li>
+					<li>
+						<a href="">挑配件</a>
+					</li>
+					<li>
+						<a href="">立即充值</a>
+					</li>
+					<li>
+						<a href="">个人中心</a>
+					</li>
+					<li>
+						<a href="">合约机</a>
+					</li>
+				</ul>
+			</li>
+			<li class="menuli">
+				<a href="" class="menu-a">
+					我的移动
+				</a>
+				<ul class="xuan">
+					<li>
+						<a href="">我的账户</a>
+					</li>
+					<li>
+						<a href="">套餐余量查询</a>
+					</li>
+					<li>
+						<a href="">业务状态查询</a>
+					</li>
+					<li>
+						<a href="">账单查询</a>
+					</li>
+					<li>
+						<a href="">详单查询</a>
+					</li>
+					<li>
+						<a href="">积分查询</a>
+					</li>
+					<li>
+						<a href="">星级查询</a>
+					</li>
+				</ul>
+			</li>
+			<li class="menuli" >
+				<a href="" class="menu-a">我的营业厅</a>
+				<ul class="xuan">
+					<li>
+						<a href="">网上充值</a>
+					</li>
+					<li>
+						<a href="">话费服务</a>
+					</li>
+					<li>
+						<a href="">资费套餐</a>
+					</li>
+					<li>
+						<a href="">入网选号</a>
+					</li>
+					<li>
+						<a href="">优惠购机</a>
+					</li>
+					<li>
+						<a href="">业务办理</a>
+					</li>
+					<li>
+						<a href="">优惠促销</a>
+					</li>
+				</ul>
+			</li>
+			<li class="menuli" >
+				<a href="" class="menu-a">服务与支持</a>
+				<ul class="xuan">
+					<li>
+						<a href="">产品</a>
+					</li>
+					<li>
+						<a href="">资费专区</a>
+					</li>
+					<li>
+						<a href="">宽带专区</a>
+					</li>
+					<li>
+						<a href="">国际/港澳台</a>
+					</li>
+					<li>
+						<a href="">中国移动俱乐部</a>
+					</li>
+					<li>
+						<a href="">手机营业厅</a>
+					</li>
+					<li>
+						<a href="">大数据应用</a>
+					</li>
+				</ul>
+			</li>
 		</div>
 	<!-- 顶部列表结束 -->
 	<!-- banner开始 -->
@@ -157,15 +287,35 @@
 				</ul>
 			</div>
 			<div class="banner-zhong">
-				<img src="img/4.png" alt="">
-				<div class="lunbo">
-					<div class="lunbo1"></div>
-					<div class="lunbo1"></div>
-					<div class="lunbo1"></div>
-					<div class="lunbo1"></div>
-					<div class="lunbo1"></div>
-					<div class="lunbo1"></div>
-				</div>
+				<ul class="banner-pic">	
+					<li>
+						<img src="img/banner (2).jpg" alt="">
+					</li>
+					<li>
+						<img src="img/banner (1).jpg" alt="">
+					</li>
+					<li>
+						<img src="img/banner (3).jpg" alt="">
+					</li>
+					<li>
+						<img src="img/banner (4).jpg" alt="">
+					</li>
+					<li>
+						<img src="img/banner (5).jpg" alt="">
+					</li>
+					<li>
+						<img src="img/banner (6).jpg" alt="">
+					</li>
+				</ul>
+				
+				<ul class="lunbo">
+					<li class="hot"></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
 				<div class="bz-left">
 					<i class="iconfont">
 						&#xe686;
@@ -245,38 +395,130 @@
 	<!-- banner结束 -->
 	<!-- 滚动开始 -->
 	<div id="gundong">
-		<div class="neikuan gneikuan">
-			<a href="" class="jiantou">
+		<div  class="jiantou">
 				<i class="iconfont">
 					&#xe686;
 				</i>
-			</a>
-			<a href="" class="jiantou1">
+			</div>
+		<div  class="jiantou1">
 				<i class="iconfont">
 					&#xe67a;
 				</i>
-			</a>
-			<a href="" class="gundong1">
-				<p class="p1">宽带预约</p>
-				<p class="p2">足不出户</p>
-				<img src="img/5.png" alt="" title="宽带预约">
-			</a>
-			<a href="" class="gundong1">
-				<p class="p1">流量放心包</p>
-				<p class="p2">免费开通 流量放心用</p>
-				<img src="img/6.png" alt="" title="流量放心包">
-			</a>
-			<a href="" class="gundong1">
-				<p class="p1">4G手机 低价购</p>
-				<p class="p2">合约套餐 任您挑选</p>
-				<img src="img/7.png" alt="" title="4G手机">
-			</a>
-			<a href="" class="gundong1">
-				<p class="p1">4G套餐</p>
-				<p class="p2">加速加量不加价</p>
-				<img src="img/8.png" alt="" title="4G套餐">
-			</a>
 		</div>
+		<ul class="gneikuan">
+			<li>
+				<a href="" class="gundong1">
+					<p class="p1">宽带预约</p>
+					<p class="p2">足不出户</p>
+					<img src="img/5.png" alt="" title="宽带预约">
+				</a>
+			</li>
+			<li>
+				<a href="" class="gundong1">
+					<p class="p1">流量放心包</p>
+					<p class="p2">免费开通 流量放心用</p>
+					<img src="img/6.png" alt="" title="流量放心包">
+				</a>
+			</li>
+			<li>
+				<a href="" class="gundong1">
+					<p class="p1">4G手机 低价购</p>
+					<p class="p2">合约套餐 任您挑选</p>
+					<img src="img/7.png" alt="" title="4G手机">
+				</a>
+			</li>
+			<li>
+				<a href="" class="gundong1">
+					<p class="p1">4G套餐</p>
+					<p class="p2">加速加量不加价</p>
+					<img src="img/8.png" alt="" title="4G套餐">
+				</a>
+			</li>
+			<li>
+				<a href="" class="gundong1">
+					<p class="p1">宽带预约</p>
+					<p class="p2">足不出户</p>
+					<img src="img/gd (1).jpg" alt="" title="宽带预约">
+				</a>
+			</li>
+			<li>
+				<a href="" class="gundong1">
+					<p class="p1">流量放心包</p>
+					<p class="p2">免费开通 流量放心用</p>
+					<img src="img/gd (2).jpg" alt="" title="流量放心包">
+				</a>
+			</li>
+			<li>
+				<a href="" class="gundong1">
+					<p class="p1">4G手机 低价购</p>
+					<p class="p2">合约套餐 任您挑选</p>
+					<img src="img/gd (3).jpg" alt="" title="4G手机">
+				</a>
+			</li>
+			<li>
+				<a href="" class="gundong1">
+					<p class="p1">4G套餐</p>
+					<p class="p2">加速加量不加价</p>
+					<img src="img/gd (4).jpg" alt="" title="4G套餐">
+				</a>
+			</li>
+			<li>
+				<a href="" class="gundong1">
+					<p class="p1">宽带预约</p>
+					<p class="p2">足不出户</p>
+					<img src="img/5.png" alt="" title="宽带预约">
+				</a>	
+			</li>
+			<li>
+				<a href="" class="gundong1">
+					<p class="p1">流量放心包</p>
+					<p class="p2">免费开通 流量放心用</p>
+					<img src="img/6.png" alt="" title="流量放心包">
+				</a>
+			</li>
+			<li>
+				<a href="" class="gundong1">
+					<p class="p1">4G手机 低价购</p>
+					<p class="p2">合约套餐 任您挑选</p>
+					<img src="img/7.png" alt="" title="4G手机">
+				</a>
+			</li>
+			<li>
+				<a href="" class="gundong1">
+					<p class="p1">4G套餐</p>
+					<p class="p2">加速加量不加价</p>
+					<img src="img/8.png" alt="" title="4G套餐">
+				</a>
+			</li>
+			<li>
+				<a href="" class="gundong1">
+					<p class="p1">宽带预约</p>
+					<p class="p2">足不出户</p>
+					<img src="img/gd (1).jpg" alt="" title="宽带预约">
+				</a>
+			</li>
+			<li>
+				<a href="" class="gundong1">
+					<p class="p1">流量放心包</p>
+					<p class="p2">免费开通 流量放心用</p>
+					<img src="img/gd (2).jpg" alt="" title="流量放心包">
+				</a>
+			</li>
+			<li>
+				<a href="" class="gundong1">
+					<p class="p1">4G手机 低价购</p>
+					<p class="p2">合约套餐 任您挑选</p>
+					<img src="img/gd (3).jpg" alt="" title="4G手机">
+				</a>
+			</li>
+			<li>
+				<a href="" class="gundong1">
+					<p class="p1">4G套餐</p>
+					<p class="p2">加速加量不加价</p>
+					<img src="img/gd (4).jpg" alt="" title="4G套餐">
+				</a>
+			</li>			
+		</ul>
 	</div>
 	<!-- 滚动结束 -->
 	<!-- 展示开始 -->
@@ -462,29 +704,64 @@
 					公告：
 				</a>
 			</span>
-			<span class="gg-zhong">
+			<ul class="gg-zhong">
+				<li class="gg-zhong1">
 				<a href="">
 					关于优化移动数据流量双封顶规则的公告
 				</a>
 				<span class="gg-zhong2">
 					2017-08-18
 				</span>
-			</span>
-			<span class="gg-zhong gg-zhong1">
+			</li>
+			<li class="gg-zhong1">
+				<a href="">
+					关于中国移动通信集团山西有限公司引入电子渠
+				</a>
+				<span class="gg-zhong2">
+					2017-09-18
+				</span>
+			</li>
+			<li class="gg-zhong1">
+				<a href="">
+					互联王卡定向免流APP调整通知
+				</a>
+				<span class="gg-zhong2">
+					2017-08-23
+				</span>
+			</li>
+			<li class="gg-zhong1">
+				<a href="">
+					中国移动“央企楷模”等先进典型积极主动学
+				</a>
+				<span class="gg-zhong2">
+					2017-10-18
+				</span>
+			</li>
+			<li class="gg-zhong1">
 				<a href="">
 					中国移动国际公司巴西子公司正式成立
 				</a>
 				<span class="gg-zhong2">
-					2017-08-18
+					2017-09-30
 				</span>
-			</span>
+			</li>
+			<li class="gg-zhong1">
+				<a href="">
+					双十一福利，1.5GB境外流量免费送！
+				</a>
+				<span class="gg-zhong2">
+					2017-11-11
+				</span>
+			</li>
+			</ul>
+			
 			<span class="fangxiang">
-				<a href="">
+				<button>
 					<
-				</a>
-				<a href="">
+				</button>
+				<button>
 					>
-				</a>
+				</button>
 			</span>
 			
 		</div>
